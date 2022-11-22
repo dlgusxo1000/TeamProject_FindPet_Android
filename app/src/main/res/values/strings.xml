@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FindPet_Android</string>
+    <string name="placeholderEmail">아이디(이메일)를 입력해주세요</string>
+    <string name="placeholderPassword">비밀번호를 입력해주세요</string>
+    <string name="signInButton">로그인</string>
+    <string name="signUpButton">회원가입</string>
+</resources>
