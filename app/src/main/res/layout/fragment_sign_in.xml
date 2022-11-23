@@ -10,11 +10,12 @@
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
-        android:hint="@string/placeholderEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:hint="@string/placeholderEmail"
+
         android:autofillHints="emailAddress"
         android:inputType="textEmailAddress" />
 
@@ -32,23 +33,27 @@
         />
 
     <Button
+        android:id="@+id/signInButton"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:text="@string/signInButton"
+        android:layout_marginTop="320dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="320dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <Button
+        android:id="@+id/signUpButton"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:text="@string/signUpButton"
+        android:layout_marginTop="380dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="380dp"
-        tools:ignore="MissingConstraints"/>
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
