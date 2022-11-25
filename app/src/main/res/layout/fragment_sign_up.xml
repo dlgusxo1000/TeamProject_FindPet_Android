@@ -2,7 +2,85 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.findpet_android.TeamProject.fragment.SignUpFragment">
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:autofillHints="emailAddress"
+        android:hint="@string/placeholderEmail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:hint="@string/placeholderPassword"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editCheckPassword"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="292dp"
+        android:hint="@string/placeholderWriteCheckPassword"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="352dp"
+        android:hint="@string/placeholderWriteName"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editNumber"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="412dp"
+        android:hint="@string/placeholderWriteNumber"
+        android:inputType="number"
+        android:importantForAutofill="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="472dp"
+        android:text="@string/signInButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

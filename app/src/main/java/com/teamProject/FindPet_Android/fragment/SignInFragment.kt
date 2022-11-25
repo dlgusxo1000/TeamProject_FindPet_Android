@@ -32,6 +32,9 @@ class SignInFragment : Fragment(){
         signInButton.setOnClickListener {
             navController.navigate(R.id.action_signInFragment_to_mainFragment)
         }
+        signUpButton.setOnClickListener {
+            navController.navigate(R.id.action_signInFragment_to_signUpFragment)
+        }
 
     }
 
